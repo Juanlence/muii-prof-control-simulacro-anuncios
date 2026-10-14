@@ -17,8 +17,8 @@ if [ ! -f "$KEY_PATH" ]; then
     exit 1
 fi
 
-# TODO: Copia aquí, a mano, la IP pública de la instancia.
-PUBLIC_IP=<ip publica>
+# DONE: Copia aquí, a mano, la IP pública de la instancia.
+PUBLIC_IP="3.228.153.190"
 
 FRONT_PATH="$PROJECT_ROOT/front"
 
